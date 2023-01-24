@@ -1,0 +1,61 @@
+
+/* CSS for styling the task table */
+
+h1{
+  text-align: center;
+  background-color: red;
+}
+.container__1{
+  width:80%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+form{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 90%;
+  text-align: center;
+  color:white;
+  background-color: black;
+  padding: 20px;
+  z-index: 1000;
+  font-size: 18px;
+  font-weight: 700;
+}
+form > input{
+  width:100%;
+  height: 20px;
+  margin: auto;
+  text-align: start;
+}
+form > p {
+  text-align: center;
+}
+form > p >  button{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #dddddd;
+}
